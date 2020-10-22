@@ -1,0 +1,78 @@
+body{
+	background-image: url(ressources/rjtextbackground.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+h1{
+	color: white;
+	padding-left: 550px;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+
+}
+img{
+	border-radius: 20%;
+	border:solid red 2px;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+#menu{
+	display: flex;
+	flex-direction:column;
+	padding-left: 60px;
+}
+#corp{
+	display: flex;
+	flex-direction: row;
+
+}
+#texte{
+	padding-left: 20px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	color: lightblue;
+
+}
+footer{
+	background-color: rgba(255, 0, 0, 0.308);
+}
+footer p{
+
+	color: white;
+	margin-bottom: -16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+.bouton{
+	align-items: center;
+	text-align: center;
+}
+.bouton {
+	background-color: #33e9ff;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 50%;
+	transition: 0.3s;
+  }
+  
+  .bouton:hover {
+	transition-duration: 2s;
+	  opacity: 100%;
+	  color: red;
+	}
+	
+iframe{
+	border:solid red 2px;
+	border-radius: 20%;
+}

@@ -1,0 +1,85 @@
+body{
+	background-image: url(ressources/visualbackground.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Turret Road', cursive;
+
+}
+h1{
+	color: white;
+	padding-left: 450px;
+	text-shadow: -2px 0 black, 0 2px black,
+      2px 0 black, 0 -2px black;
+}
+h3{
+	color: white;
+	padding-left: 150px;
+	text-shadow: -2px 0 black, 0 2px black,
+      2px 0 black, 0 -2px black;
+}
+p{
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black,
+      2px 0 black, 0 -2px black;
+}
+a{
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black,
+      2px 0 black, 0 -2px black;
+	text-decoration: none;
+}
+img{
+	border-radius: 10%;
+	width: 500px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+
+iframe{
+	border-radius: 10%;
+
+}
+#corp{
+	display: flex;
+	flex-direction:column;
+}
+#parent{
+	display: flex;
+	flex-direction: row-reverse;
+}
+#texte{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bouton {
+	background-color: #ff9700;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 50%;
+	transition: 0.3s;
+  }
+  
+  .bouton:hover {
+	  transition-duration: 2s;
+	  opacity: 100%;
+	  color: green;
+	}
+
+	footer{
+		background-color: rgba(255, 0, 0, 0.308);
+	}
+	footer p{
+	
+		color: white;
+		margin-bottom: -16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		align-items: center;
+	}
